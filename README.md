@@ -13,7 +13,7 @@
 pip install -r requirements.txt
 python Portal.py 或用Pycharm run Portal.py即可打开工具
 ```
-##Xmind编写格式说明：
+## Xmind编写格式说明：
 ![Xmind-demo](https://github.com/keg1003/easy-test-XmindToExcel/blob/main/src/image/xind-demo.png)<br>
 打开工具如下图：
 ![GUI图](https://github.com/keg1003/easy-test-XmindToExcel/blob/main/src/image/UI.png)<br>
