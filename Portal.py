@@ -1,12 +1,11 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-
 from tkinter import *
-import DictToExcel
+from src import DictToExcel
 import tkinter as tk
-from tkinter import  ttk
-from tkinter import  messagebox
+from tkinter import ttk
+from tkinter import messagebox
 from tkinter.filedialog import askopenfilename
 from tkinter.filedialog import askdirectory
 from tkinter import END
@@ -96,9 +95,9 @@ try:
 
 
 except Exception as e:
-        text.insert(END,e)
+        text.insert(END, e)
 
 if __name__=='__main__':
     GUI.geometry("400x380")
-    GUI.title('xmind转csv脚本')
+    GUI.title('xmind转Excel脚本_fzk')
     GUI.mainloop()  # 进入消息循环

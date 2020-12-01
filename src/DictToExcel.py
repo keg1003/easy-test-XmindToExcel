@@ -1,7 +1,7 @@
 # !/usr/bin/python
 # -*- coding: UTF-8 -*-
 import openpyxl
-import XmindtoDict
+from src import XmindtoDict
 
 def toExcel(file_name, path_name,vban, user):
         try:
@@ -23,5 +23,5 @@ def toExcel(file_name, path_name,vban, user):
         except Exception as e:
                 return  str(e)
 if __name__ == '__main__':
-     ri = toExcel('C:/Users/ex-fzk001/Desktop','C:/Users/ex-fzk001/Desktop/test.xmind', '云门户/v1.6.4', 'fzk')
+     ri = toExcel('C:/Users/ex-fzk001/Desktop','C:/Users/ex-fzk001/Desktop/test.xmind', 'v1.6.4', 'fzk')
      print(ri)
