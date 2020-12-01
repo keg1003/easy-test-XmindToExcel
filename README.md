@@ -24,3 +24,6 @@ python Portal.py 或用Pycharm run Portal.py即可打开工具
 输入所需数据后，转换成功Excel如下图：
 
 ![Excel-demo](https://github.com/keg1003/easy-test-XmindToExcel/blob/main/src/image/Excel.png)<br>
+
+## 生成exe文件：
+使用Pyinstaller进行打包，pip install pyinstaller安装好之后，到该文件夹下，执行pyinstaller -F Portal.py. 在生成的dist文件夹下就会生成一个独立的exe文件了。Mac下一样，需要修改一行代码。
